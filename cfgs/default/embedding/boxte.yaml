@@ -1,0 +1,34 @@
+MODEL_NAME: 'BoxTE'
+
+embedding_dim: 400
+num_negative_samples: 75
+neg_sampling_type: 'd'
+print_loss_step: 10
+model_variant: 'BoxTE'
+norm_embeddings: True
+nb_timebumps: 2
+use_r_factor: True
+use_e_factor: False
+use_r_t_factor: False
+use_r_rotation: False
+use_e_rotation: False
+no_initial_validation: True
+use_time_reg: True
+use_ball_reg: False
+time_reg_weight: 0.1
+
+adversarial_temp: 1.0
+loss_type: 'ce'
+gradient_clipping: -1
+weight_init_factor: 1.0
+time_weight: 1.0
+timebump_dropout_p: 0.0
+ball_reg_weight: 0.01
+time_reg_order: 4
+ball_reg_order: 4
+de_activation: 'sine'
+nb_time_basis_vecs: -1
+ce_reduction: 'mean'
+neg_sample_what: 'e'
+norm_time_basis_vecs: False
+arity_spec_timebumps: False

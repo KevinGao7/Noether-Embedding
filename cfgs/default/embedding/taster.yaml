@@ -1,0 +1,24 @@
+MODEL_NAME: TASTER
+
+bs: 2
+fact_count: 10
+
+init1: 0.05
+init2: 0.07
+init3: 0.005
+init4: 0.2
+
+dim: 400
+sample_size: 50
+dropout: 0.4
+reg1: 0.0
+reg2: 0.0
+local: False
+shear: True
+block: False
+structured: False
+fix_pattern: False
+it: False
+static: False
+diagonal: False
+full: False

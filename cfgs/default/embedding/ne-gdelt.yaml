@@ -1,0 +1,6 @@
+MODEL_NAME: 'NE'
+RANK: 400
+OMG_MAX: 600
+OMG_INIT: 'exp'
+
+EMBED_MODE: 'spo'

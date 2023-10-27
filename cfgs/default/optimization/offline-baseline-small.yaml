@@ -1,0 +1,24 @@
+BATCH_SIZE: 20
+EPOCH: 100
+
+EMB_REG: 0.01
+TIME_REG: 0.001
+BLUR_WIDTH: 3
+
+# TRAIN_DATE_RANGE:
+#     ST: 0
+#     ED: 192
+
+GRAD_CLIP: 10
+
+BREAK_LOSS_THD: -1
+
+OPTIMIZER:
+    NAME: 'Adagrad'
+    CONFIG: {'lr': 0.01}
+
+SCHEDULER:
+    NAME: 'StepLR'
+    CONFIG: {'step_size': 10, 'gamma': 0.9}
+
+REPEAT_TIMES: 3
